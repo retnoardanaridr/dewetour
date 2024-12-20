@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>My Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../src/css/style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="head-nav" id="headNav">
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            <img style="height: 45px;" class="logo-image" src="../src/img/Icon.png" alt="DeweTour" />
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <img src="/src/img/User.png" onclick="dropdownFunc()" alt="User Icon" class="dropbtn">
+                    <div id="dropdownUser" class="dropdown-content">
+                        <a href="/pages/portal.html"><img src="/src/img/user 2.png" alt=""><span>Profile</span></a>
+                        <a href="/pages/payment.html"><img src="/src/img/bill 1.png" alt=""><span>Pay</span></a>
+                        <hr>
+                        <a href="#"><img src="/src/img/logout 1.png" alt=""><span>Logout</span></a>
+                    </div>
+                </div>
+                <a class="menu-toggle" href="javascript:void(0);" id="menuToggle">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class="nav-right" id="navLinks">
+                    <li>
+                        <a href="#" class="btn-style-login" onclick="openModal('myModalLogin')" id="myLogin">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-style-register" onclick="openModal('myModalRegister')" id="myRegister">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="card-portal-view">
+                <div class="col-left">
+                    <h4>Personal Info</h4>
+                    <div style="display: flex; align-items: center; margin: 25px 0">
+                        <img class="img-portal" src="../src/img/name.png" alt="icon">
+                        <div style="margin-left: 5px;">
+                            <p style="margin: 0; font-weight: bold; font-size: small;">Retno Ardanari</p>
+                            <p style="margin: 0; font-size: x-small;">Full name</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; margin: 25px 0">
+                        <img class="img-portal" src="../src/img/local_post_office.png" alt="icon">
+                        <div style="margin-left: 5px;">
+                            <p style="margin: 0; font-weight: bold; font-size: small;">retnoxxxxx@gmail.com</p>
+                            <p style="margin: 0; font-size: x-small;">Email</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; margin: 25px 0">
+                        <img class="img-portal" src="../src/img/local_phone.png" alt="icon">
+                        <div style="margin-left: 5px;">
+                            <p style="margin: 0; font-weight: bold; font-size: small;">+628219****</p>
+                            <p style="margin: 0; font-size: x-small;">Mobile Phone</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; margin: 25px 0">
+                        <img class="img-portal" src="../src/img/place.png" alt="icon">
+                        <div style="margin-left: 5px;">
+                            <p style="margin: 0; font-weight: bold; font-size: small;">West Jakarta, Indonesia</p>
+                            <p style="margin: 0; font-size: x-small;">Address</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div>
+                        <img width="100%" src="../src/img/Avatar.png" alt="">
+                    </div>
+                    <button class="btn-portal">Change Photo Profile</button>
+                </div>
+            </div>
+            <h2 style="font-weight: bold;">History Trip</h2>
+            <div style="overflow-x: auto;">
+                <div class="history-trip-view">
+                    <div style="display: flex; justify-content: space-between;">
+                        <img src="../src/img/logo.png" alt="">
+                        <div>
+                            <h4>Booking</h4>
+                            <p><span>Saturday,</span> 24th November 2024</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="part-data-booking">
+                            <h3>4D/4N Fun Tassie Vacation</h3>
+                            <p>Australia</p>
+                            <button class="btn-status">Cancel</button>
+                        </div>
+                        <div class="part-data-booking">
+                            <h4>Date Trip</h4>
+                            <p>26 August 2020</p>
+                            <h4>Accommodation</h4>
+                            <p>Hotel 4 Nights</p>
+                        </div>
+                        <div class="part-data-booking">
+                            <h4>Duration</h4>
+                            <p>6 Day 4 Night</p>
+                            <h4>Transportation</h4>
+                            <p>Qatar Airways</p>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img src="../src/img/upload.png" alt="">
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>No</th>
+                            <th>Full Name</th>
+                            <th>Gender</th>
+                            <th>Phone</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Radif</td>
+                            <td>Male</td>
+                            <td>0823736492</td>
+                            <td style="font-weight: bold;">Qty :</td>
+                            <td style="font-weight: bold;">1</td>
+                        </tr>
+                    </table>
+                    <div style="display: flex; justify-content:end;">
+                        <p style="font-weight: bold;">Total :</p>
+                        <p style="color: red; font-weight: bold;">IDR. 12,398,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="../src/js/template.js"></script>
+</html>

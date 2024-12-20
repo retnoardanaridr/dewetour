@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Add Trip</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../src/css/style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="head-nav" id="headNav">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <img style="height: 45px;" class="logo-image" src="../src/img/Icon.png" alt="DeweTour" />
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <img src="/src/img/User.png" onclick="dropdownFunc()" alt="User Icon" class="dropbtn">
+                    <div id="dropdownUser" class="dropdown-content">
+                        <a href="/pages/portal.html"><img src="/src/img/user 2.png" alt=""><span>Profile</span></a>
+                        <a href="/pages/payment.html"><img src="/src/img/bill 1.png" alt=""><span>Pay</span></a>
+                        <hr>
+                        <a href="#"><img src="/src/img/logout 1.png" alt=""><span>Logout</span></a>
+                    </div>
+                </div>
+                <a class="menu-toggle" href="javascript:void(0);" id="menuToggle">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class="nav-right" id="navLinks">
+                    <li>
+                        <a href="#" class="btn-style-login" onclick="openModal('myModalLogin')" id="myLogin">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-style-register" onclick="openModal('myModalRegister')" id="myRegister">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2>Add Trip</h2>
+            <div class="input-style">
+                <label class="label-view" for="title_trip">Title Trip</label>
+                <input class="input-view" type="text" name="title_trip" id="title_trip">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="country">Country</label>
+                <input class="input-view" type="text" name="country" id="country">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="accommodation">Accommodation</label>
+                <input class="input-view" type="text" name="accommodation" id="accommodation">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="transportation">Transportation</label>
+                <input class="input-view" type="text" name="transportation" id="transportation">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="eat_facility">Eat</label>
+                <input class="input-view" type="text" name="eat_facility" id="eat_facility">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="duration">Duration</label>
+            </div>
+            <div class="input-style" style="display: flex; flex-wrap: wrap; align-items: center;">
+                <input class="input-view-flex" type="number" name="duration" id="duration">
+                <span style="margin: 0 10px;">Day</span>
+                <input class="input-view-flex" type="number" name="eat_facility" id="eat_facility">
+                <span style="margin: 0 10px;">Night</span>
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="date_trip">Date Trip</label>
+                <input class="input-view" type="text" name="date_trip" id="date_trip">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="price">Price</label>
+                <input class="input-view" type="text" name="price" id="price">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="quota">Quota</label>
+                <input class="input-view" type="text" name="quota" id="quota">
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="description">Description</label>
+                <textarea class="textarea-view" name="description" id="description"></textarea>
+            </div>
+            <div class="input-style">
+                <label class="label-view" for="image">Image</label>
+                <input class="input-view" type="file" name="image" id="image" />
+            </div>
+            <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+                <button class="btn">Add Trip</button>
+            </div>
+        </div>
+    </body>
+    <script src="../src/js/template.js"></script>
+</html>

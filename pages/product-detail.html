@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Product Detail</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../src/css/style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="head-nav" id="headNav">
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            <img style="height: 45px;" class="logo-image" src="../src/img/Icon.png" alt="DeweTour" />
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <img src="/src/img/User.png" onclick="dropdownFunc()" alt="User Icon" class="dropbtn">
+                    <div id="dropdownUser" class="dropdown-content">
+                        <a href="/pages/portal.html"><img src="/src/img/user 2.png" alt=""><span>Profile</span></a>
+                        <a href="/pages/payment.html"><img src="/src/img/bill 1.png" alt=""><span>Pay</span></a>
+                        <hr>
+                        <a href="#"><img src="/src/img/logout 1.png" alt=""><span>Logout</span></a>
+                    </div>
+                </div>
+                <!-- <a class="menu-toggle" href="javascript:void(0);" id="menuToggle">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class="nav-right" id="navLinks">
+                    <li>
+                        <a href="#" class="btn-style-login" onclick="openModal('myModalLogin')" id="myLogin">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-style-register" onclick="openModal('myModalRegister')" id="myRegister">Register</a>
+                    </li>
+                </ul> -->
+            </div>
+        </nav>
+        <div class="container">
+            <h2>6D/4N Fun Tassie Vacation + Sydney</h2>
+            <p>Australia</p>
+            <div>
+                <img src="../src/img/pic1.jpg" alt="" class="img-gallery-core">
+            </div>`
+            <div class="img-gallery">
+                <img class="img-gallery-col" src="../src/img/pic2.jpg" />
+                <img class="img-gallery-col" src="../src/img/pic3.jpg" />
+                <img class="img-gallery-col" src="../src/img/pic4.jpg" />
+            </div>
+            <div>
+                <p style="font-size:medium; font-weight: bold;">Information Trip</p>
+                <div class="row-text">
+                    <div class="col-text">
+                        <p style="font-size: x-small;">accommodation</p>
+                        <p style="font-weight: 600;"><img style="margin: 0 5px 0 0" src="../src/img/hotel 1.png" />Hotel 4 Nights</p>
+                    </div>
+                    <div class="col-text">
+                        <p style="font-size: x-small;">Transportation</p>
+                        <p style="font-weight: 600;"><img style="margin: 0 5px 0 0" src="../src/img/plane 1.png" />Qatar Airways</p>
+                    </div>
+                    <div class="col-text">
+                        <p style="font-size: x-small;">Eat</p>
+                        <p style="font-weight: 600;"><img style="margin: 0 5px 0 0" src="../src/img/meal 1.png" />Includedas Itinerary</p>
+                    </div>
+                    <div class="col-text">
+                        <p style="font-size: x-small;">Duration</p>
+                        <p style="font-weight: 600;"><img style="margin: 0 5px 0 0" src="../src/img/time 1.png" />6 Day 4 Night</p>
+                    </div>
+                    <div class="col-text">
+                        <p style="font-size: x-small;">Date Trip</p>
+                        <p style="font-weight: 600;"><img style="margin: 0 5px 0 0" src="../src/img/calendar 1.png" />26 August 2020</p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Description</h4>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quidem molestiae rem dicta facilis laborum vero eos modi neque eum saepe soluta repellendus, recusandae fuga! Ratione laborum nam deleniti quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iure hic ratione porro harum veniam iste assumenda aspernatur? Explicabo labore dolore est obcaecati alias, id repellat accusantium dicta assumenda nemo!</p>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <h3 style="color: #FFAF00;">IDR. 12,398,000 <span style="color: black;">/Person</span></h3>
+                <div class="btn-group-qty">
+                    <button><i class="fa fa-plus"></i></button>
+                    <input type="text" placeholder="1">
+                    <button><i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+            <div style="display: flex; justify-content:space-between;">
+                <h3>Total</h3>
+                <h3 style="color: #FFAF00;">IDR. 12,398,000</h3>
+            </div>
+            <div style="display: flex; justify-content: end; text-align: center;">
+                <a href="/pages/payment.html" class="btn-style-register">Book Now</a>
+            </div>
+        </div>
+    </body>
+    <script src="../src/js/template.js"></script>
+</html>

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "id_transaction": "230102A",
+        "name": "Harianto",
+        "trip": "6D/4N Fun Tassie Vacation",
+        "proof_transaction": "bca.jpg",
+        "payment_status": "Approve"
+    },
+    {
+        "id": 2,
+        "id_transaction": "230104I",
+        "name": "Laura",
+        "trip": "6D/4N Labuan Bajo",
+        "proof_transaction": "mandiri.jpg",
+        "payment_status": "Pending"
+    },
+    {
+        "id": 3,
+        "id_transaction": "230104J",
+        "name": "Herman Astino",
+        "trip": "6D/4N Magic Tokyo",
+        "proof_transaction": "mandiri.jpg",
+        "payment_status": "Cancel"
+    },
+    {
+        "id": 4,
+        "id_transaction": "230106K",
+        "name": "Felisia",
+        "trip": "3D/2N Summer Korea",
+        "proof_transaction": "bni.jpg",
+        "payment_status": "Pending"
+    },
+    {
+        "id": 5,
+        "id_transaction": "240426J",
+        "name": "Haris Rahman",
+        "trip": "6D/5N Summer Tokyo",
+        "proof_transaction": "bca.jpg",
+        "payment_status": "Approve"
+    }
+]

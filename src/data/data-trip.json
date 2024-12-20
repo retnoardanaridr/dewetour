@@ -1,0 +1,110 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "titleTrip": "Fun Tassie Vacation",
+        "country": "Australia",
+        "accommodation": "Hotel",
+        "transportation": "Qatar Airways",
+        "eat": "Included as itinerary",
+        "duration": {
+            "day": 6,
+            "night": 4
+        },
+        "dateTrip": 12122023,
+        "price": 12398000,
+        "quota": 50,
+        "description": "Trip to sydney is the best",
+        "imgUrl": "src/img/pic1.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "titleTrip": "Exciting Summer",
+        "country": "South Korea",
+        "accommodation": "Hotel",
+        "transportation": "Singapure Airlines",
+        "eat": "Not Included",
+        "duration": {
+            "day": 6,
+            "night": 4
+        },
+        "dateTrip": 12122023,
+        "price": 10288000,
+        "quota": 25,
+        "description": "Korean summer trip so hot dan vancy",
+        "imgUrl": "src/img/pic2.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "titleTrip": "Wonderful Autumn",
+        "country": "Japan",
+        "accommodation": "Apartement",
+        "transportation": "Japan Airlines",
+        "eat": "Not Included",
+        "duration": {
+            "day": 8,
+            "night": 6
+        },
+        "dateTrip": 12122023,
+        "price": 28999000,
+        "quota": 30,
+        "description": "Japan with mapple trees",
+        "imgUrl": "src/img/pic3.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "titleTrip": "Overland Jakarta",
+        "country": "Indonesia",
+        "accommodation": "Villa",
+        "transportation": "Air Asia",
+        "eat": "Included as itinerary",
+        "duration": {
+            "day": 4,
+            "night": 3
+        },
+        "dateTrip": 12122023,
+        "price": 3188000,
+        "quota": 30,
+        "description": "Indonesia with lestar",
+        "imgUrl": "src/img/Rectangle 8 (5).png"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "titleTrip": "Labuan Bajo Delight",
+        "country": "Indonesia",
+        "accommodation": "Villa",
+        "transportation": "Garuda Indonesia",
+        "eat": "Included as itinerary",
+        "duration": {
+            "day": 4,
+            "night": 3
+        },
+        "dateTrip": 12122023,
+        "price": 10488000,
+        "quota": 15,
+        "description": "Indonesia with lestar",
+        "imgUrl": "src/img/Rectangle 8 (2).png"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "titleTrip": "Magic Tokyo Fun",
+        "country": "Japan",
+        "accommodation": "Hotel",
+        "transportation": "Japan Airlines",
+        "eat": "Included as itinerary",
+        "duration": {
+            "day": 5,
+            "night": 4
+        },
+        "dateTrip": 12122023,
+        "price": 11188000,
+        "quota": 25,
+        "description": "Indonesia with lestar",
+        "imgUrl": "src/img/Rectangle 8 (3).png"
+    }
+]
