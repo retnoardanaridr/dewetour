@@ -1,10 +1,6 @@
-function imgGallery(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    expandImg.parentElement.style.display = "block"
-}
+document.addEventListener("DOMContentLoaded", () => {
+    checkUserLogin();
+});
 
 function myNavbar() {
     var navLinks = document.getElementById('navLinks')
@@ -28,9 +24,20 @@ window.onclick = function(e) {
     }
 }
 
+// ============================== Check Login User =============== //
+function checkUserLogin() {
+    const dropdownHidden = document.getElementById('profile-user');
+    const navLinks = document.getElementById('navLinks');
+
+    const userLogin = JSON.parse(localStorage.getItem('userLogin'));
+    if(userLogin) {
+        navLinks.classList.add('hidden');
+        dropdownHidden.classList.remove('hidden');
+    }
+}
+
 // ============================== Register ======================= //
 function btnRegister() {
-    console.log("test")
     const fullname = document.getElementById('fullname').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
@@ -64,6 +71,8 @@ function btnLogin() {
             alert('Login Successful!!')
             localStorage.setItem('userLogin', JSON.stringify({emailLogin, passwordLogin}));
             console.log("login save", {emailLogin, passwordLogin})
+            document.getElementById('loginForm').reset()
+            checkUserLogin();
         } else {
             alert('Email or Password Wrong!!!')
         }
